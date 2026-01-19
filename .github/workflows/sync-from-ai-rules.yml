@@ -56,6 +56,13 @@ jobs:
           # Clean up
           rm -rf ai-rules
 
+      - name: Remove frontend-specific files
+        run: |
+          # Remove Next.js/React standards (not needed for backend)
+          rm -f .kiro/standards/libraries/nextjs.md
+          rm -f .kiro/steering/nextjs-standards.md
+          echo "Removed frontend-specific files"
+
       - name: Check for changes
         id: changes
         run: |
