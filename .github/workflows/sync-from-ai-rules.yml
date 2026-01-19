@@ -23,7 +23,7 @@ jobs:
       - name: Checkout ai-rules repository
         uses: actions/checkout@v4
         with:
-          repository: palpito-hunch/kiro-project-template  # TODO: Update to ai-rules repo name
+          repository: palpito-hunch/ai-rules
           path: ai-rules
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -76,7 +76,7 @@ jobs:
           body: |
             ## Automated Standards Sync
 
-            This PR syncs the latest AI coding standards from the [ai-rules repository](https://github.com/palpito-hunch/kiro-project-template).
+            This PR syncs the latest AI coding standards from the [ai-rules repository](https://github.com/palpito-hunch/ai-rules).
 
             ### What's synced:
             - `.kiro/standards/` - Coding standards

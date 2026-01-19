@@ -1,6 +1,6 @@
 # Backend Template
 
-Node.js backend template with Express, Prisma, and Zod. Uses centralized AI rules from the [ai-rules repository](https://github.com/palpito-hunch/kiro-project-template).
+Node.js backend template with Express, Prisma, and Zod. Uses centralized AI rules from the [ai-rules repository](https://github.com/palpito-hunch/ai-rules).
 
 ## Stack
 
