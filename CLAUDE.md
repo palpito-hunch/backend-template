@@ -46,7 +46,6 @@ Full framework: `.kiro/standards/core/priority-framework.md`
 | Library | File                                    | When to Use            |
 | ------- | --------------------------------------- | ---------------------- |
 | Prisma  | `.kiro/standards/libraries/prisma.md`   | Database operations    |
-| Next.js | `.kiro/standards/libraries/nextjs.md`   | Next.js features       |
 | Zod     | `.kiro/standards/libraries/zod.md`      | Schema validation      |
 
 ## Validation Rules
@@ -61,7 +60,6 @@ Machine-readable patterns in `.kiro/validation/rules.yml` define what to check d
 ## Conventions
 
 - **Files:** kebab-case (`user-service.ts`)
-- **Components:** PascalCase (`UserProfile.tsx`)
 - **Functions/Variables:** camelCase
 - **Constants:** UPPER_SNAKE_CASE
 - **Commits:** Conventional commits format
