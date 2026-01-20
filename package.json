@@ -1,6 +1,6 @@
 {
   "name": "backend-template",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Backend template with Node.js, Express, Prisma, and Zod",
   "main": "dist/index.js",
   "type": "module",
