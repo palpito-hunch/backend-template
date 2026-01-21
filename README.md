@@ -4,7 +4,7 @@ Node.js backend template with Express, Prisma, and Zod. Uses centralized AI rule
 
 ## Stack
 
-- **Runtime**: Node.js 22 LTS
+- **Runtime**: Node.js 24 LTS
 - **Framework**: Express 5.x
 - **Database**: PostgreSQL with Prisma 7.x
 - **Validation**: Zod 4.x
@@ -14,7 +14,7 @@ Node.js backend template with Express, Prisma, and Zod. Uses centralized AI rule
 
 ### Prerequisites
 
-- Node.js 22+
+- Node.js 24+
 - PostgreSQL (or use Docker)
 
 ### Setup
